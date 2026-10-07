@@ -1,0 +1,6 @@
+include LICENSE README.md CHANGELOG.md THIRD_PARTY_NOTICES.md CONTRIBUTING.md
+include requirements.txt
+recursive-include kaomoji_reply/data *.json *.txt
+recursive-include tests *.py
+recursive-include examples *.json
+recursive-include docs *.md

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.playwright-mcp/
+models/
+runtime/
+.local/
+archive/
+inputs/
+outputs/
+dist/
+build/
+*.egg-info/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*

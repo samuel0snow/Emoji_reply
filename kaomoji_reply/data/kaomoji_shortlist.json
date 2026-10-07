@@ -1,0 +1,158 @@
+{
+  "repository": "https://github.com/kaomojiya-collection/kaomoji-collection",
+  "commit": "2ca1b394345a437bbec9e9b9445d1dd75ae3f7d4",
+  "license": "MIT",
+  "license_path": "kaomoji_reply/data/LICENSE-kaomoji-collection.txt",
+  "total_categories": 535,
+  "total_entries": 41596,
+  "filter_counts": {
+    "smile": {
+      "raw": 85,
+      "eligible": 71
+    },
+    "happy": {
+      "raw": 64,
+      "eligible": 17
+    },
+    "wink": {
+      "raw": 80,
+      "eligible": 52
+    },
+    "aisatsu": {
+      "raw": 122,
+      "eligible": 20
+    }
+  },
+  "normalization": "HTML实体解码并去除首尾空格；过滤长条目、不可见格式字符、日文和附带文字。",
+  "selection": "按分类及与原文表情的字符接近程度初筛；不是语气相似度评分。",
+  "faces": [
+    {
+      "id": "collection_smile_0",
+      "text": "(*´ `)",
+      "origin": "kaomoji_collection",
+      "category": "smile",
+      "context": "轻松喜爱、礼物",
+      "raw_category": "smile"
+    },
+    {
+      "id": "collection_smile_1",
+      "text": "(´◡͐`)",
+      "origin": "kaomoji_collection",
+      "category": "smile",
+      "context": "轻松喜爱、礼物",
+      "raw_category": "smile"
+    },
+    {
+      "id": "collection_smile_2",
+      "text": "(*´꒳`*)",
+      "origin": "kaomoji_collection",
+      "category": "smile",
+      "context": "轻松喜爱、礼物",
+      "raw_category": "smile"
+    },
+    {
+      "id": "collection_smile_3",
+      "text": "(*´∇`*)",
+      "origin": "kaomoji_collection",
+      "category": "smile",
+      "context": "轻松喜爱、礼物",
+      "raw_category": "smile"
+    },
+    {
+      "id": "collection_happy_0",
+      "text": "୧(˃◡˂)୨",
+      "origin": "kaomoji_collection",
+      "category": "happy",
+      "context": "生日、祝福、庆祝",
+      "raw_category": "happy"
+    },
+    {
+      "id": "collection_happy_1",
+      "text": "\\(°∀°)/",
+      "origin": "kaomoji_collection",
+      "category": "happy",
+      "context": "生日、祝福、庆祝",
+      "raw_category": "happy"
+    },
+    {
+      "id": "collection_happy_2",
+      "text": "\\( ¨̮ )/",
+      "origin": "kaomoji_collection",
+      "category": "happy",
+      "context": "生日、祝福、庆祝",
+      "raw_category": "happy"
+    },
+    {
+      "id": "collection_happy_3",
+      "text": "\\(　˙-˙　)/",
+      "origin": "kaomoji_collection",
+      "category": "happy",
+      "context": "生日、祝福、庆祝",
+      "raw_category": "happy"
+    },
+    {
+      "id": "collection_wink_0",
+      "text": "(^_-)",
+      "origin": "kaomoji_collection",
+      "category": "wink",
+      "context": "温柔提醒、轻微调侃",
+      "raw_category": "wink"
+    },
+    {
+      "id": "collection_wink_1",
+      "text": "(-_^)",
+      "origin": "kaomoji_collection",
+      "category": "wink",
+      "context": "温柔提醒、轻微调侃",
+      "raw_category": "wink"
+    },
+    {
+      "id": "collection_wink_2",
+      "text": "(•ω-)",
+      "origin": "kaomoji_collection",
+      "category": "wink",
+      "context": "温柔提醒、轻微调侃",
+      "raw_category": "wink"
+    },
+    {
+      "id": "collection_wink_3",
+      "text": "(｡･ω-)",
+      "origin": "kaomoji_collection",
+      "category": "wink",
+      "context": "温柔提醒、轻微调侃",
+      "raw_category": "wink"
+    },
+    {
+      "id": "collection_aisatsu_0",
+      "text": "( ´ ▽ ` )ﾉ",
+      "origin": "kaomoji_collection",
+      "category": "aisatsu",
+      "context": "招呼、约见、告别",
+      "raw_category": "aisatsu"
+    },
+    {
+      "id": "collection_aisatsu_1",
+      "text": "(* ´ ▽ ` *)ﾉ",
+      "origin": "kaomoji_collection",
+      "category": "aisatsu",
+      "context": "招呼、约见、告别",
+      "raw_category": "aisatsu"
+    },
+    {
+      "id": "collection_aisatsu_2",
+      "text": "(*´▽`*)ﾉ",
+      "origin": "kaomoji_collection",
+      "category": "aisatsu",
+      "context": "招呼、约见、告别",
+      "raw_category": "aisatsu"
+    },
+    {
+      "id": "collection_aisatsu_3",
+      "text": "(ﾉ´∀`)ﾉ",
+      "origin": "kaomoji_collection",
+      "category": "aisatsu",
+      "context": "招呼、约见、告别",
+      "raw_category": "aisatsu"
+    }
+  ]
+}

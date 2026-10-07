@@ -1,0 +1,272 @@
+{
+  "notes": "原文表达优先；网络检索用于扩展备选，不能把网络常见表达当成该作者已经使用的表达。",
+  "sources": {
+    "original": "docs/data_sources.md",
+    "cute_variants": "https://paper.people.com.cn/rmrbhwb/page/2017-02/10/09/rmrbhwb2017021009.pdf",
+    "kankan": "https://pdf.hanspub.org/ml20230300000_29809394.pdf",
+    "faces": "https://kaomojisymbols.com/happy.html",
+    "kaomoji_collection": "https://github.com/kaomojiya-collection/kaomoji-collection"
+  },
+  "replacements": [
+    {
+      "from": "这个",
+      "to": "介个",
+      "origin": "original"
+    },
+    {
+      "from": "我",
+      "to": "瓦",
+      "origin": "original"
+    },
+    {
+      "from": "的",
+      "to": "滴",
+      "origin": "original"
+    },
+    {
+      "from": "是",
+      "to": "似",
+      "origin": "original"
+    },
+    {
+      "from": "可爱",
+      "to": "kuo 耐",
+      "origin": "original"
+    },
+    {
+      "from": "可爱",
+      "to": "口耐",
+      "origin": "cute_variants"
+    },
+    {
+      "from": "这样子",
+      "to": "酱紫",
+      "origin": "cute_variants"
+    },
+    {
+      "from": "朋友",
+      "to": "盆友",
+      "origin": "cute_variants"
+    },
+    {
+      "from": "比心",
+      "to": "笔芯",
+      "origin": "cute_variants"
+    },
+    {
+      "from": "看看",
+      "to": "康康",
+      "origin": "kankan"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "ding",
+      "text": "叮叮～",
+      "origin": "original",
+      "placement": "开头",
+      "context": "礼物、生日、开箱、轻松招呼"
+    },
+    {
+      "id": "random",
+      "text": "随缘抽啦～",
+      "origin": "original",
+      "placement": "分句末尾",
+      "context": "源文确实提到随机挑选、抽取"
+    },
+    {
+      "id": "happy",
+      "text": "祝开心～",
+      "origin": "original",
+      "placement": "分句末尾",
+      "context": "源文已经表达生日祝福、祝开心或希望开箱开心"
+    },
+    {
+      "id": "reminder",
+      "text": "（小小提醒一下）",
+      "origin": "assistant_curated",
+      "placement": "提醒之前",
+      "context": "一般生活提醒，不用于严肃警告"
+    }
+  ],
+  "faces": [
+    {
+      "id": "wink",
+      "text": "；)",
+      "origin": "original",
+      "context": "轻松补充、温柔提醒、轻微调侃"
+    },
+    {
+      "id": "soft",
+      "text": "(´｡・ᵕ・｡`)",
+      "origin": "original",
+      "context": "礼物、轻松喜爱"
+    },
+    {
+      "id": "happy",
+      "text": "(≧∇≦)",
+      "origin": "original",
+      "context": "祝福、开心、开箱"
+    },
+    {
+      "id": "curious",
+      "text": "OωO",
+      "origin": "original",
+      "context": "好奇、尺寸等轻松说明"
+    },
+    {
+      "id": "wave",
+      "text": "( ´ ▽ ` )ﾉ",
+      "origin": "faces",
+      "context": "问候、约见、告别"
+    },
+    {
+      "id": "smile",
+      "text": "(o^▽^o)",
+      "origin": "faces",
+      "context": "已有开心、庆祝语义"
+    },
+    {
+      "id": "sweet",
+      "text": "(´｡• ᵕ •｡`)",
+      "origin": "faces",
+      "context": "礼物、轻松喜爱"
+    },
+    {
+      "id": "collection_smile_0",
+      "text": "(*´ `)",
+      "origin": "kaomoji_collection",
+      "category": "smile",
+      "context": "轻松喜爱、礼物",
+      "raw_category": "smile"
+    },
+    {
+      "id": "collection_smile_1",
+      "text": "(´◡͐`)",
+      "origin": "kaomoji_collection",
+      "category": "smile",
+      "context": "轻松喜爱、礼物",
+      "raw_category": "smile"
+    },
+    {
+      "id": "collection_smile_2",
+      "text": "(*´꒳`*)",
+      "origin": "kaomoji_collection",
+      "category": "smile",
+      "context": "轻松喜爱、礼物",
+      "raw_category": "smile"
+    },
+    {
+      "id": "collection_smile_3",
+      "text": "(*´∇`*)",
+      "origin": "kaomoji_collection",
+      "category": "smile",
+      "context": "轻松喜爱、礼物",
+      "raw_category": "smile"
+    },
+    {
+      "id": "collection_happy_0",
+      "text": "୧(˃◡˂)୨",
+      "origin": "kaomoji_collection",
+      "category": "happy",
+      "context": "生日、祝福、庆祝",
+      "raw_category": "happy"
+    },
+    {
+      "id": "collection_happy_1",
+      "text": "\\(°∀°)/",
+      "origin": "kaomoji_collection",
+      "category": "happy",
+      "context": "生日、祝福、庆祝",
+      "raw_category": "happy"
+    },
+    {
+      "id": "collection_happy_2",
+      "text": "\\( ¨̮ )/",
+      "origin": "kaomoji_collection",
+      "category": "happy",
+      "context": "生日、祝福、庆祝",
+      "raw_category": "happy"
+    },
+    {
+      "id": "collection_happy_3",
+      "text": "\\(　˙-˙　)/",
+      "origin": "kaomoji_collection",
+      "category": "happy",
+      "context": "生日、祝福、庆祝",
+      "raw_category": "happy"
+    },
+    {
+      "id": "collection_wink_0",
+      "text": "(^_-)",
+      "origin": "kaomoji_collection",
+      "category": "wink",
+      "context": "温柔提醒、轻微调侃",
+      "raw_category": "wink"
+    },
+    {
+      "id": "collection_wink_1",
+      "text": "(-_^)",
+      "origin": "kaomoji_collection",
+      "category": "wink",
+      "context": "温柔提醒、轻微调侃",
+      "raw_category": "wink"
+    },
+    {
+      "id": "collection_wink_2",
+      "text": "(•ω-)",
+      "origin": "kaomoji_collection",
+      "category": "wink",
+      "context": "温柔提醒、轻微调侃",
+      "raw_category": "wink"
+    },
+    {
+      "id": "collection_wink_3",
+      "text": "(｡･ω-)",
+      "origin": "kaomoji_collection",
+      "category": "wink",
+      "context": "温柔提醒、轻微调侃",
+      "raw_category": "wink"
+    },
+    {
+      "id": "collection_aisatsu_0",
+      "text": "( ´ ▽ ` )ﾉ",
+      "origin": "kaomoji_collection",
+      "category": "aisatsu",
+      "context": "招呼、约见、告别",
+      "raw_category": "aisatsu"
+    },
+    {
+      "id": "collection_aisatsu_1",
+      "text": "(* ´ ▽ ` *)ﾉ",
+      "origin": "kaomoji_collection",
+      "category": "aisatsu",
+      "context": "招呼、约见、告别",
+      "raw_category": "aisatsu"
+    },
+    {
+      "id": "collection_aisatsu_2",
+      "text": "(*´▽`*)ﾉ",
+      "origin": "kaomoji_collection",
+      "category": "aisatsu",
+      "context": "招呼、约见、告别",
+      "raw_category": "aisatsu"
+    },
+    {
+      "id": "collection_aisatsu_3",
+      "text": "(ﾉ´∀`)ﾉ",
+      "origin": "kaomoji_collection",
+      "category": "aisatsu",
+      "context": "招呼、约见、告别",
+      "raw_category": "aisatsu"
+    },
+    {
+      "id": "collection_support_0",
+      "text": "(｡´･ω･)ﾉﾞ",
+      "origin": "kaomoji_collection",
+      "category": "support",
+      "raw_category": "yoshiyoshi",
+      "context": "温和安慰"
+    }
+  ]
+}

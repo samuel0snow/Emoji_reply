@@ -1,0 +1,4 @@
+# Run from the project root: python -m pip install -r requirements.txt
+# Install this project and the optional Chinese slang tokenizer (jieba).
+# Dependency versions are maintained in pyproject.toml.
+.[slang]
